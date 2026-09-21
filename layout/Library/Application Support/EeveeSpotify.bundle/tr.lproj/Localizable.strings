@@ -47,6 +47,7 @@ LRCLIB: Zaman senkronizeli şarkı sözleri sunan en açık servistir. Ancak bir
 
 Musixmatch: Spotify'ın kullandığı servistir. Birçok şarkı için zaman senkronizeli sözler sağlar, ancak bu kaynağı kullanmak için bir kullanıcı jetonuna ihtiyacınız vardır.";
 lyrics_additional_info = "EeveeSpotify bir şarkıyı bulamazsa veya sözleri işleyemezse \"Bu şarkı için şarkı sözleri yüklenemedi\" mesajını görürsünüz. Genius kullanılırken tweak'in şarkı arama yöntemi nedeniyle bazı şarkıların sözleri yanlış olabilir. Çoğu durumda çalışacak şekilde ayarlanmıştır.";
+spicylyrics_description = "SpicyLyrics: Spotify'ın kendi jetonunu kullanarak kelime kelime senkronize karaoke şarkı sözleri sunar. Ekstra kurulum gerektirmez.";
 petitlyrics_description = "PetitLyrics: Bol miktarda zaman senkronizeli Japonca ve bazı uluslararası şarkı sözleri sunar.";
 
 musixmatch_user_token = "Musixmatch Kullanıcı Jetonu";
@@ -68,6 +69,17 @@ romanized_lyrics_description = "Japonca, Korece ve Çince için Latin alfabesiyl
 
 musixmatch_language = "Musixmatch Şarkı Sözü Dili";
 musixmatch_language_description = "2 harfli bir Musixmatch dil kodu girerek varsa Musixmatch üzerindeki çevrilmiş şarkı sözlerini görebilirsiniz.";
+
+karaoke_word_synced_button = "Kelime Senkronizeli";
+
+lyrics_alignment = "Şarkı Sözü Hizalaması";
+reversed_direction = "Ters Yön";
+word_synced_lyrics = "KELİME SENKRONİZE ŞARKI SÖZLERİ";
+reversed_direction_description = "Ters yön, satırları yukarıdan aşağıya yerine aşağıdan yukarıya doğru akıtır ve aktif satır ekranda daha aşağıda yer alır.";
+
+Left = "Sol";
+Center = "Orta";
+Right = "Sağ";
 
 // UI
 
@@ -139,6 +151,7 @@ let_the_music_play = "Bırak müzik çalsın...";
 liked_songs = "Beğenilen Şarkılar";
 
 contributors = "Katkıda Bulunanlar";
+developer_note = "Geliştirici Notu";
 
 request_anonymous_token = "Anonim Jeton İste";
 request_anonymous_token_description = "Musixmatch'ten yetkilendirme olmadan jeton istemek için \"Anonim Jeton İste\" seçeneğine dokunun.";
@@ -232,7 +245,7 @@ unhideButton = "Gizlemeyi Kaldır";
 popUpRegenerateTitle = "Kullanıcı kimliği yeniden üretilsin mi?";
 popUpRegenerateSubtitle = "Mevcut gönderileriniz ve oylarınız artık sizinle ilişkilendirilmeyecek.";
 popUpClearAllButton = "Tümünü temizle";
-popUpClearAllTitle = "Gizlenen tüm segmentler temizlensin mi?";
+popUpClearAllTitle = "Gizlenen tüm segmentler temizlansin mi?";
 popUpClearAllSubtitle = "Kategori kurallarınıza göre tekrar atlanacaklar.";
 
 readyButton = "Hazır";
