@@ -44,20 +44,20 @@ struct EeveeLyricsSettingsView: View {
 
     @ViewBuilder private func karaokeAppearanceSection() -> some View {
         Section {
-            Picker("Lyrics alignment", selection: $karaokeOptions.textAlignment) {
+            Picker("lyrics_alignment".localized, selection: $karaokeOptions.textAlignment) {
                 ForEach(KaraokeTextAlignment.allCases, id: \.self) { alignment in
-                    Text(alignment.displayName).tag(alignment)
+                    Text(alignment.displayName.localized).tag(alignment)
                 }
             }
 
             Toggle(
-                "Reversed direction",
+                "reversed_direction".localized,
                 isOn: $karaokeOptions.reversedDirection
             )
         } header: {
-            Text("Word-Synced Lyrics")
+            Text("word_synced_lyrics".localized)
         } footer: {
-            Text("Reversed direction flows lines bottom-to-top instead of top-to-bottom, with the active line lower on screen.")
+            Text("reversed_direction_description".localized)
         }
     }
     
